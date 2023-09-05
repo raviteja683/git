@@ -54,7 +54,7 @@ Hotfixes are used to addess quick correction of a bug or a defect usually to exp
     $ git checkout branchName                               // Switches your branch to branchName 
     $ git checkout -b branchName                            // Creates branch and switches to the branch
     $ git pull origin branchName                            // origin represents remote repository
-    $ git push origin branchName                            // pushes changes to remote repository
+    $ git push origin branchName                            // pushes changes to remote repository   
     $ git fetch origin branchName                           // Downloads the changes, but they won't be applied, they will stay in staging
     $ git merge                                             // Downloaded changes will be applied
 
