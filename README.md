@@ -58,10 +58,9 @@ Hotfixes are used to addess quick correction of a bug or a defect usually to exp
     $ git fetch origin branchName                           // Downloads the changes, but they won't be applied, they will stay in staging
     $ git merge                                             // Downloaded changes will be applied
 
-
 ```
 
-### Git Fetch vs Git Pull 
+### Git Fetch vs Git Pull  
 
 ```
 The key difference between git fetch and pull is that git pull copies changes from a remote repository directly into your working directory, while git fetch does not. The git fetch command only copies changes into your local Git repo and if you want to merge your changes fetched by git fetch, switch to the branch of your choice and then do a git merge. The git pull command does both
